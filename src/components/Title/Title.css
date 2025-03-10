@@ -1,0 +1,19 @@
+.header h4 {
+  color: white;
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: var(--margin-secondary);
+  font-style: oblique;
+  text-decoration: underline;
+}
+.header {
+  display: flex;
+  gap: 1rem;
+}
+.header h5 {
+  color: var(--color-primary);
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: var(--margin-secondary);
+  font-style: oblique;
+}

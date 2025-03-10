@@ -2,11 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -27,12 +22,33 @@
 .App-link {
   color: #61dafb;
 }
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@400;500;700;&display=swap");
+:root {
+  --color-dark: #212529;
+  --color-darkest: #1f2122;
+  --color-primary: #526ebb;
+  --color-light: white;
+  --pg-color-primary: var(--color-darkest);
+  --pg-color: var(--dark-color);
+  --dist-primary: 50px;
+  --font-weight: 700;
+  --font-primary: "Poppins", serif;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  --padding-primary: var(--dist-primary);
+  --padding-secondary: calc(var(--dist-primary) / 2);
+  --padding-secondary-2: calc(var(--dist-primary) / 4);
+  --margin-primary: var(--dist-primary);
+  --margin-secondary: calc(var(--dist-primary) / 2);
+  --margin-secondary-4: calc(var(--dist-primary) / 4);
+  --border-radius-primary: calc(var(--dist-primary) / 2);
+  --border-radius-secondary-1: calc(var(--dist-primary) / 4);
+  --border-radius-secondary-2: calc(var(--dist-primary) / 8);
 }
+body {
+  background-color: var(--pg-color-primary);
+  font: var(--font-primary);
+}
+ul {
+  list-style: none;
+}
+a {text-decoration: none;}

@@ -1,0 +1,30 @@
+.main-banner {
+  background: url(../../assets/photo/ea6fba09c4c94dda7c33d10f03a35303.jpg) no-repeat top right/cover;
+  background-color: var(--color-dark);
+  color: var(--color-light);
+  border-radius: calc(var(--dist-primary) / 2);
+  padding: var(--dist-primary);
+}
+.hero-text {
+  max-width: 500px;
+}
+.hero-title {
+  font-size: 60px;
+  text-transform: uppercase;
+  margin-bottom: calc(var(--dist-primary) / 2);
+  font-weight: var(--font-weight);
+  margin-top:0px
+   /* var(--margin-primary); */
+}
+.hero-title em {
+  font-size: normal;
+  color: var(--color-primary);
+}
+.hero-subtitle {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(100, 115, 137);
+  margin-bottom:10px;
+  margin-bottom: calc(var(--dist-primary) / 2);
+  margin-top: var(--margin-primary);
+}
